@@ -28,8 +28,8 @@ const url = "https://admin.com/password%20localhost"
 
 console.log(url.replace('%20', '-'));
 
-console.log(url.includes('password'));
-console.log(gameName.split('-'));
+console.log(url.includes('password')); // true
+console.log(gameName.split('-')); 
 
 
 
