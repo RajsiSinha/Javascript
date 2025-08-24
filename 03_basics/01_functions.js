@@ -55,4 +55,40 @@
  }
  
  console.log(loginUserMessage());
+
+ function calculateCartPrice(val1,val2, ...num1){
+    return num1 
+ }
+
+ console.log(calculateCartPrice(200,400,600,800)); // [600, 800]
+
+ const user = {
+    username: "tia",
+    price: 199
+ }
+
+ function handleObject(anyObject){
+    console.log(`username is ${user.username} and price is ${user.price}`);
+
+ }
+
+ handleObject(user)
+
+ // if user.price-> price is undefined
+ 
+ handleObject({
+    username: "sam",
+    price: 200
+ })
+
+ const myNewArray = [200, 400, 600, 800]
+
+ function returnSecondValue(getArray){
+    return getArray[1]
+ }
+
+ console.log(returnSecondValue(myNewArray));
+ console.log(returnSecondValue([1, 2, 3, 4, 5]));
+ 
+ 
  
