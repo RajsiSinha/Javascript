@@ -34,7 +34,7 @@ const myObj = {
 }
 
 // for (const [key, value] of myObj) {
-//     console.log(key, ':-', value); // error in case of object
+//     console.log(key, ':-', value); // error in case of obj
 // }
 
 
